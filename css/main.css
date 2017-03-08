@@ -1,0 +1,228 @@
+*{margin: 0; padding: 0;} 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: 'Lato', sans-serif;
+}
+@font-face {
+    font-family: 'ramsteinzregular';
+    src: url('../fonts/ramsteinz-webfont.eot');
+    src: url('../fonts/ramsteinz-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ramsteinz-webfont.woff2') format('woff2'),
+         url('../fonts/ramsteinz-webfont.woff') format('woff'),
+         url('../fonts/ramsteinz-webfont.ttf') format('truetype'),
+         url('../fonts/ramsteinz-webfont.svg#ramsteinzregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.font-ram{
+	font-family: 'ramsteinzregular';
+}
+.topbar {
+	height: 30px;
+	background: #2c3e50;
+}
+.topbar p {
+	color: #ffffff;
+	font-size: 12px;
+	line-height: 30px;
+}
+.topbar p i{
+	margin-right: 10px;
+	margin-left: 30px;
+}
+.nav-bg{
+	height: 80px;
+	border-bottom: 1px solid #f2f2f2;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.navbar-brand{
+	padding: 0;
+	margin: 0;
+}
+.nav-bg .navbar-nav .nav-item .nav-link{
+	font-size: 14px;
+	color: #2c3e50;
+	font-weight: 900;
+	padding: 0;
+	height: 80px;
+	line-height: 80px;
+	text-transform: uppercase;
+	margin-left: 20px;
+	box-sizing: border-box;
+}
+.nav-bg .navbar-nav .nav-item .nav-link:hover,
+.nav-bg .navbar-nav .active .nav-link,
+.nav-bg .navbar-nav .active .nav-link:hover, .nav-bg .navbar-nav .nav-item .social-link:hover{
+	color: #fcb040;
+	border-bottom: 5px solid #fcb040;
+}
+.nav-bg .navbar-nav .nav-item .social-link{
+	margin-left:5px;
+}
+.nav-bg .navbar-nav .nav-item .social-link:hover {
+	border-bottom: none;
+}
+.top-footer	{
+	padding-top: 80px;
+	padding-bottom: 60px;
+	background: #34495e;
+	color: #95a5a6;
+	font-size: 14px;
+}
+.logo-white{
+	margin-bottom: 10px;
+}
+.footer-des{
+	line-height: 1.4;
+	margin-bottom: 20px;
+}
+.social i{
+	margin-right: 10px;
+}
+.social i:hover{
+	color: #fff;
+}
+.link-footer-head{
+	font-size: 24px;
+	font-weight: 700;
+	border-top: 2px solid #fcb040;
+	color: #fff;
+	padding-top: 10px;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+	display: inline-block;
+}
+.top-footer ul li{
+	list-style: none;
+	margin-bottom: 20px;
+}
+.top-footer ul li a{
+	color: #95a5a6;
+	text-decoration: none;
+}
+.top-footer ul li:hover a{
+	color: #fcb040;
+}
+.top-footer ul li:hover a:before{
+	content: "\f178";
+	font-family: "FontAwesome";
+	margin-right: 5px;
+}
+.bot-footer{
+	height: 80px;
+	background: #10202f;
+	line-height: 80px;
+	color: #fff;
+}
+.bot-footer a{
+	color: #fcb040;
+	text-decoration: none;
+}
+/*Slider*/
+.overlaybg{
+	width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-image: linear-gradient(to bottom, #ef4036 0%, #fcb040 100%);
+    opacity: 0.6;
+}
+h3.font-ram{
+	color:#fff;
+	font-size: 50px;
+	margin-bottom: 20px;
+}
+.carousel-item h1{
+	color: #fff;
+	font-weight: 900;
+	font-size: 60px;
+	margin-bottom: 30px;
+}
+.carousel-item .btn-info{
+	background: transparent;
+	border: 3px solid #fff;
+	border-radius: 0;
+}
+.carousel-indicators{
+	bottom: 80px;
+	width: 40px;
+	margin-left: -40px;
+}
+.carousel-indicators .active {
+    width: 0px;
+    height: 0px;
+    margin: 0;
+    background-color: transparent;
+}
+/*section*/
+.section {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+h1.section-tittle{
+	font-size: 32px;
+	font-weight: 900;
+	margin-bottom: 15px;
+	color: #34495e;
+	text-transform: uppercase;
+}
+h3.sub-tittle{
+	font-family: "ramsteinzregular";
+	font-size: 32px;
+	color: #fcb040;
+	margin-bottom: 30px;
+}
+.line-3{
+	width: 90px;
+	height: 3px;
+	background: #fcb040;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+.section p{
+	color: #7f8c8d;
+	line-height: 1.4;
+	font-size: 14px;
+}
+.bg-secondary{
+	background: #fcb040;
+}
+.bg-secondary h1.section-tittle, .bg-secondary h3.sub-tittle, .bg-secondary p {
+	color: #fff;
+}
+.bg-secondary .line-3{
+	background: #fff;
+}
+.bg-secondary img{
+	height: 100px;
+}
+.service-tittle{
+	font-size: 24px;
+	font-weight: 700;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.bg-secondary .service-tittle{
+	color: #fff;
+}
