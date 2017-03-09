@@ -175,6 +175,9 @@ h3.font-ram{
     margin: 0;
     background-color: transparent;
 }
+#carousel-example-generic{
+	top: -3px;
+}
 /*section*/
 .section {
 	padding-top: 80px;
@@ -247,4 +250,49 @@ h3.sub-tittle{
 .food-action i.fa{
 	margin-bottom: 10px;
 	margin-left: 25px;
+}
+.food{
+	position: relative;
+}
+.food .shadow{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+	background-image: linear-gradient(to bottom, #434343 0%, black 100%);
+	opacity: 0.6;
+	transition: 0.4s;
+	box-sizing: border-box;
+}
+.food .food-action{
+	position: absolute;
+	top: 30%;
+	left: 0;
+	width: 100%;
+	z-index: 3;
+	transition: 0.4s;
+	opacity: 0;
+}
+.food .food-action p{
+	color: #fff;
+}
+.food .food-action i.fa{
+	margin-left: 0;
+	color: #fff;
+}
+.food-tittle{
+	font-size: 24px;
+	font-weight: 700;
+	color: #fff;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+.food:hover .shadow{
+	background: #fcb040;
+	opacity: 1;
+}
+.food:hover .food-action{
+	opacity: 1;
 }
