@@ -296,3 +296,47 @@ h3.sub-tittle{
 .food:hover .food-action{
 	opacity: 1;
 }
+.dotted{
+	display: inline-block;
+	width: 242px;
+	border-bottom: 2px dotted #ccc;
+}
+.one-menu {
+	margin-bottom: 20px;
+}
+.one-menu p{
+	font-size: 14px;
+	color:#2c3e50;
+}
+.one-menu a{
+	font-weight: 700;
+	color:#2c3e50;
+	text-decoration: none;
+}
+.one-menu p.menu-des{
+	font-size: 12px;
+	color: #7f8c8d;
+	margin-top: 5px;
+}
+.quote p{
+	color: #fff;
+	font-size: 14px;
+	line-height: 1.4;
+}
+.quote .carousel-control{
+	background: transparent;
+}
+.booking input{
+	border-radius: 0;
+	font-size: 14px;
+}
+.booking input:focus {
+	border-color: #fcb040;
+}
+.booking .btn-default{
+	border-radius: 0;
+	background: #fcb040;
+	color: #fff;
+	font-weight: 700;
+	margin-top: 30px;
+}
