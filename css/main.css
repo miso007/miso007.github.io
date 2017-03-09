@@ -253,6 +253,7 @@ h3.sub-tittle{
 }
 .food{
 	position: relative;
+	overflow: hidden;
 }
 .food .shadow{
 	position: absolute;
