@@ -162,6 +162,31 @@
 			</div>
 		</div>
 	</div>
+
+	<div class="feature">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-6">
+					<img src="images/food1.jpeg" alt="" class="img-fluid top-feature-img">
+				</div>
+				<div class="col-sm-6 table-display">
+					<div class="feature-food">
+						<h1 class="section-tittle">Shrimp Rice</h1>
+						<h3 class="sub-tittle">The Best of Week</h3>
+						<div class="line-3"></div>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias dolorum reiciendis molestiae nihil numquam harum pariatur consequuntur, inventore explicabo enim nostrum corporis, ducimus doloremque temporibus, vel quam consectetur eligendi dignissimos. ducimus doloremque temporibus, vel quam consectetur eligendi dignissimos ducimus doloremque temporibus, vel quam consectetur eligendi dignissimos</p>
+						<div class="food-action">
+							<div class="row">
+								<div class="col-xs-4" style="color: #fcb040"><i class="fa fa-eye"></i><p style="color: #fcb040">2016 Views</p></div>
+								<div class="col-xs-4" style="color: #e74c3c"><i class="fa fa-heart"></i><p style="color: #e74c3c">2016 Love</p></div>
+								<div class="col-xs-4"><i class="fa fa-plus"></i><p>Add menu</p></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </div><!-- end body -->
 
 <div id="footer">
@@ -217,6 +242,14 @@
 		</div>
 	</div>	
 </div><!-- end footer -->
-
+<script>
+	var top_img_h = $(".feature .top-feature-img").height();
+	$(".table-display").height(top_img_h);
+	$(window).resize(function() {
+		var top_img_h = $(".feature .top-feature-img").height();
+		$(".table-display").height(top_img_h);
+	});
+	
+</script>
 </body>
 </html>
