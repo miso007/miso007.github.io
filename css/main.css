@@ -159,17 +159,17 @@ h3.font-ram{
 	font-size: 60px;
 	margin-bottom: 30px;
 }
-header .carousel-item .btn-info{
+#header .carousel-item .btn-info{
 	background: transparent;
 	border: 3px solid #fff;
 	border-radius: 0;
 }
-header .carousel-indicators{
+#header .carousel-indicators{
 	bottom: 80px;
 	width: 40px;
 	margin-left: -40px;
 }
-header .carousel-indicators .active {
+#header .carousel-indicators .active {
     width: 0px;
     height: 0px;
     margin: 0;
@@ -345,6 +345,11 @@ h3.sub-tittle{
 	color: #fff;
 	font-weight: 700;
 	margin-top: 30px;
+}
+.menu p{
+	color: #7f8c8d;
+    line-height: 1.4;
+    font-size: 14px;
 }
 .menu .right {
 	display: table;
