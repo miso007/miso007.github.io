@@ -235,6 +235,9 @@ h3.sub-tittle{
 .feature div[class^="col-sm-"] {
 	padding: 0;
 }
+.menu div[class^="col-sm-"] {
+	padding: 0;
+}
 .table-display{
 	display: table;
 }
@@ -265,7 +268,7 @@ h3.sub-tittle{
 	background-image: linear-gradient(to bottom, #434343 0%, black 100%);
 	opacity: 0.6;
 	transition: 0.4s;
-	box-sizing: border-box;
+	
 }
 .food .food-action{
 	position: absolute;
@@ -275,6 +278,7 @@ h3.sub-tittle{
 	z-index: 3;
 	transition: 0.4s;
 	opacity: 0;
+	visibility: hidden;
 }
 .food .food-action p{
 	color: #fff;
@@ -296,6 +300,7 @@ h3.sub-tittle{
 }
 .food:hover .food-action{
 	opacity: 1;
+	visibility: visible;
 }
 .dotted{
 	display: inline-block;
@@ -340,4 +345,62 @@ h3.sub-tittle{
 	color: #fff;
 	font-weight: 700;
 	margin-top: 30px;
+}
+.menu .right {
+	display: table;
+	position: relative;
+	height: calc(100vw/2);
+}
+.menu .right .content{
+	height: calc(80vw/2);
+	position: absolute;
+	display: table-cell;
+	vertical-align: middle;
+	border: 3px solid #fcb040;
+	box-sizing: border-box;
+	padding: 100px;
+	box-sizing: border-box;
+	top: calc(10vw/2);
+	left: -80px;
+}
+.menu .left .content{
+	height: calc(80vw/2);
+	position: absolute;
+	display: table-cell;
+	vertical-align: middle;
+	border: 3px solid #fcb040;
+	box-sizing: border-box;
+	padding: 100px;
+	box-sizing: border-box;
+	top: calc(10vw/2);
+	right: -80px;
+	z-index: 2;
+}
+.favourites{
+	height: 100%;
+	position: relative;
+}
+.favourites .shadow	{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top:0;
+	left: 0;
+	background-image: linear-gradient(to bottom, #434343 0%, black 100%);
+	opacity: 0.6;
+	padding-top: 45%;
+	color: #fff;
+	box-sizing: border-box;
+	visibility: hidden;
+}
+.favourites .shadow h1.name{
+	font-weight: 700;
+	font-size: 18px;
+	border-bottom: 2px solid #fff;
+	display: inline-block;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+}
+.favourites:hover .shadow{
+	visibility: visible;
 }
