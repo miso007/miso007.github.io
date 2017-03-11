@@ -159,24 +159,24 @@ h3.font-ram{
 	font-size: 60px;
 	margin-bottom: 30px;
 }
-.carousel-item .btn-info{
+header .carousel-item .btn-info{
 	background: transparent;
 	border: 3px solid #fff;
 	border-radius: 0;
 }
-.carousel-indicators{
+header .carousel-indicators{
 	bottom: 80px;
 	width: 40px;
 	margin-left: -40px;
 }
-.carousel-indicators .active {
+header .carousel-indicators .active {
     width: 0px;
     height: 0px;
     margin: 0;
     background-color: transparent;
 }
 #carousel-example-generic{
-	top: -3px;
+	top: -4px;
 }
 /*section*/
 .section {
@@ -362,6 +362,7 @@ h3.sub-tittle{
 	box-sizing: border-box;
 	top: calc(10vw/2);
 	left: -80px;
+	right: 80px;
 }
 .menu .left .content{
 	height: calc(80vw/2);
@@ -374,6 +375,7 @@ h3.sub-tittle{
 	box-sizing: border-box;
 	top: calc(10vw/2);
 	right: -80px;
+	left: 80px;
 	z-index: 2;
 }
 .favourites{
@@ -402,5 +404,104 @@ h3.sub-tittle{
 	margin-bottom: 5px;
 }
 .favourites:hover .shadow{
+	visibility: visible;
+}
+.big-chef{
+	width: 100%;
+	height: 60vw;
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.big-chef .big {
+	width: 100%;
+	height:100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+.big-chef .shadow{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #333;
+	opacity: 0.6;
+	z-index: 2;
+}
+.big-chef .chef-infomation {
+	position: absolute;
+	width: 45%;
+	height: 100%;
+	top: 10vw;
+	left: 10vw;
+	z-index: 3;
+	color: #fff;
+}
+.chef-infomation .chef-name{
+	font-size: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+.chef-infomation .chef-position{
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+.chef-infomation .chef-infomation{
+	font-size: 14px;
+	line-height: 1.4;
+}
+.small-chef{
+	width: 100%;
+	height: calc(100vw/8);
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.small-chef img{
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+.small-chef .shadow{
+	width: 100%;
+	height: 100%;
+	background: #333;
+	opacity: 0.6;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	transition: 0.4s;
+}
+.small-chef .small-info{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding-top: 20%;
+	z-index: 3;
+	color: #fff;
+	text-align: center;
+	opacity: 0;
+	visibility: hidden;
+	transition: 0.4s;
+}
+.small-chef .name {
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.small-chef:hover .shadow{
+	background-image: linear-gradient(to bottom, #ef4036 0%, #fcb040 100%);
+	opacity: 0.6; 
+}
+.small-chef:hover .small-info {
+	opacity: 1;
 	visibility: visible;
 }
