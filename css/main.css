@@ -93,7 +93,7 @@ time, mark, audio, video {
 	margin-bottom: 10px;
 }
 .footer-des{
-	line-height: 1.4;
+	line-height: 1.5;
 	margin-bottom: 20px;
 }
 .social i{
@@ -208,7 +208,7 @@ h3.sub-tittle{
 }
 .section p, .feature p{
 	color: #7f8c8d;
-	line-height: 1.4;
+	line-height: 1.5;
 	font-size: 14px;
 }
 .bg-secondary{
@@ -327,7 +327,7 @@ h3.sub-tittle{
 .quote p{
 	color: #fff;
 	font-size: 14px;
-	line-height: 1.4;
+	line-height: 1.5;
 }
 .quote .carousel-control{
 	background: transparent;
@@ -339,7 +339,7 @@ h3.sub-tittle{
 .booking input:focus {
 	border-color: #fcb040;
 }
-.booking .btn-default{
+.btn-default{
 	border-radius: 0;
 	background: #fcb040;
 	color: #fff;
@@ -348,7 +348,7 @@ h3.sub-tittle{
 }
 .menu p{
 	color: #7f8c8d;
-    line-height: 1.4;
+    line-height: 1.5;
     font-size: 14px;
 }
 .menu .right {
@@ -457,7 +457,7 @@ h3.sub-tittle{
 }
 .chef-infomation .chef-infomation{
 	font-size: 14px;
-	line-height: 1.4;
+	line-height: 1.5;
 }
 .small-chef{
 	width: 100%;
@@ -509,4 +509,72 @@ h3.sub-tittle{
 .small-chef:hover .small-info {
 	opacity: 1;
 	visibility: visible;
+}
+.news-tittle {
+	font-size: 24px;
+	font-weight: 700;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	color: #2c3e50;
+}
+.news-info {
+	font-size: 14px;
+	color: #95a5a6;
+	font-family: "Times New Roman", Times, serif;
+	font-style: italic;
+	margin-bottom: 15px;
+}
+.news-content{
+	font-size: 14px;
+	line-height: 1.5;
+	color: #7f8c8d;
+	height: 105px;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.news a{
+	color: #fcb040;
+	font-size: 14px;
+	font-weight: 700;
+	margin-bottom: 30px;
+	text-decoration: none;
+	display: block;
+}
+.news a:hover{
+	color: #fd9600;
+}
+.page-link{
+	border-radius: 0 !important;
+	margin-left: 7px;
+	margin-right: 7px;
+	color: #2c3e50;
+	text-decoration: none;
+}
+.page-link:hover {
+	text-decoration: none;
+}
+#contact-form label{
+	margin-bottom: 10px;
+}
+#contact-form .form-control{
+	border-radius: 0;
+}
+#contact-form .form-control:focus {
+	border-color: #fcb040;
+}
+.contact-tittle{
+	font-size: 18px;
+	font-weight: 900;
+	color: #2c3e50;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+}
+.contact-head{
+	font-size: 16px;
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+.bg2 {
+	background: #f2f2f2;
 }
