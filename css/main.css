@@ -20,6 +20,12 @@ time, mark, audio, video {
     vertical-align: baseline;
     font-family: 'Lato', sans-serif;
 }
+a:hover{
+	color: #fcb040 !important;
+	text-decoration: none;
+	cursor: pointer;
+	transition: 0.2s;
+}
 @font-face {
     font-family: 'ramsteinzregular';
     src: url('../fonts/ramsteinz-webfont.eot');
@@ -54,6 +60,7 @@ time, mark, audio, video {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+	z-index: 9999;
 }
 .navbar-brand{
 	padding: 0;
@@ -577,4 +584,107 @@ h3.sub-tittle{
 }
 .bg2 {
 	background: #f2f2f2;
+}
+.a-info{
+	height: 30px;
+	line-height: 30px !important;
+}
+.img-thumbnail{
+	width: 30px;
+	vertical-align: middle;
+}
+.article h1{
+	font-size: 36px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+.a-info{
+	font-family: "Times New Roman", Times, serif;
+	font-style: italic;
+	font-size: 18px;
+	color: #95a5a6;
+	margin-bottom: 20px;
+}
+.a-info a{
+	color: #95a5a6;
+	text-decoration: none;
+}
+.a-info a:hover{
+	color: #fcb040;
+}
+.btn-article {
+	color: #2c3e50;
+	font-weight: bold;
+	font-size: 14px;
+	border: 2px solid #2c3e50;
+	border-radius: 0;
+}
+.p-title{
+	font-size: 18px;
+	font-weight: 700;
+	margin-top: 40px;
+	margin-bottom: 20px;
+
+}
+.ele p{
+	margin-bottom: 10px;
+}
+.foot-relation h3{
+	margin-top: 10px;
+}
+.foot-relation h3 a{
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #2c3e50;
+}
+@media (max-width: 576px){
+	ul.nav.navbar-nav.float-sm-right.float-xs-left {
+	    width: 100%;
+	    text-align: center;
+	}
+
+	a.navbar-brand {
+	    display: none !important;
+	}
+
+	button.navbar-toggler.hidden-sm-up {
+	    margin-top: 17px;
+	}
+	.nav-bg .navbar-nav .nav-item .nav-link {
+	    border-bottom: 1px solid #f2f2f2;
+	}
+	.nav-bg {
+		border-bottom: 0px;
+	}
+	.nav-bg .navbar-nav .nav-item .nav-link:hover, .nav-bg .navbar-nav .active .nav-link, .nav-bg .navbar-nav .active .nav-link:hover, .nav-bg .navbar-nav .nav-item .social-link:hover {
+	    color: #fcb040;
+	    border-bottom: 5px solid #fcb040;
+	}
+
+	h3.link-footer-head {
+	    display: block;
+	    text-align: center;
+	    margin-top: 40px;
+	}
+
+	div#carousel-example-generic2 p {
+	    font-size: 12px;
+	    padding-left: 60px;
+	    padding-right: 60px;
+	}
+
+	.one-menu {
+	    text-align: center;
+	}
+
+	.bg-secondary .col-sm-4.text-xs-center {
+	    margin-bottom: 40px;
+	}
+
+	a.hidden-sm-up.brand {
+	    position: absolute;
+	    top: -5px;
+	    left: 40%;
+	}
 }
