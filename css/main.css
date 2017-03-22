@@ -737,4 +737,7 @@ h3.sub-tittle{
 		color: #fff !important;
 		text-shadow: 1px 1px 1px #333;
 	}
+	.foot-relation img{
+		width: 100%
+	}
 }
