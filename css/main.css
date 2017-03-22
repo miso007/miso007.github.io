@@ -644,6 +644,9 @@ h3.sub-tittle{
 	border: 2px solid #2c3e50;
 	border-radius: 0;
 }
+.btn-article:hover{
+	border-color: #fcb040;
+}
 .p-title{
 	font-size: 18px;
 	font-weight: 700;
